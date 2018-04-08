@@ -23,25 +23,12 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             app:srcCompat="@drawable/dicee_logo" />
-    </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="150dp">
-
-        <Button
-            android:id="@+id/rollbutton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_centerInParent="true"
-            android:background="@android:color/darker_gray"
-            android:text="@string/button"
-            android:textColor="@android:color/holo_red_dark" />
     </RelativeLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="150dp"
         android:orientation="horizontal">
 
         <ImageView
@@ -58,5 +45,20 @@
             android:layout_weight="1"
             app:srcCompat="@drawable/dice1" />
     </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <Button
+            android:id="@+id/rollbutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="#f93030d3"
+            android:text="@string/button"
+            android:textColor="@android:color/background_light" />
+
+    </RelativeLayout>
 
 </LinearLayout>
